@@ -1,11 +1,13 @@
-dictrionary (name,id)
-def arrange(name,id):
-attendence=("karthik":12345,"jyothsna":21345,"sasank":12435)
-name=[]
-for value in attendence:
-   name.append(value)
-   name.sort()
-   for i in name
-   print(i,attendence (i))
-   
-            
+def arrange():
+    attendence = {"karthik": 12345, "jyothsna": 21345, "sasank": 12435}
+    values = []
+    keys = []
+    for key, value in attendence.items():
+        keys.append(key)
+        values.append(value)
+    values.sort()
+    for i in keys:
+        print(i, attendence[i])
+
+
+arrange()         
