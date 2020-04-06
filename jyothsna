@@ -1,9 +1,9 @@
 class Customer:
-def __init__(self, name, id, age):
-self.name = name
-self.id = id
-self.age = age
-self.account = 20000
+  def __init__(self, name, id, age):
+    self.name = name
+    self.id = id
+    self.age = age
+    self.account = 20000
 
 
 x = Customer('karthick', 123, 22)
@@ -11,17 +11,17 @@ y = Customer('jyo', 213, 22)
 z = Customer('sashank', 231, 22)
 
 class GooglePay:
-def __init__(self):
-self.customerList = []
+  def __init__(self):
+    self.customerList = []
 
-def register(self, customer):
-if customer not in self.customerList:
-self.customerList.append(customer)
+  def register(self, customer):
+    if customer not in self.customerList:
+      self.customerList.append(customer)
 
-def send(self, sender, receiver, cash):
-sender.account = sender.account - cash
-receiver.account = receiver.account + cash
-print(sender.account, receiver.account)
+  def send(self, sender, receiver, cash):
+    sender.account = sender.account - cash
+    receiver.account = receiver.account + cash
+    print(sender.account, receiver.account)
 
 
 googlePay = GooglePay()
