@@ -1,20 +1,11 @@
-def send(self, sender, receiver, cash):
-   p = {sender, receiver}
-   if isinstance(sender, Customer) and isinstance(receiver, Customer):
-      if p.issubset(self.customers):
-         if sender.amount > cash:
-            sender.amount = sender.amount - cash
-            receiver.amount = receiver.amount + cash
-            print("transaction successful")
-            print(str(sender.name) + " current account balance is " + str(sender.amount))
-            print(str(receiver.name) + " current account balance is " + str(receiver.amount))
-         else:
-            print("insufficient funds")
-      else:
-         print("sender or receiver does not exist")
-   else:
-      print("either sender or receiver is not a real customer")
-
-googlePay = GooglePay()
-googlePay.register(x).register(y).register(z)
-googlePay.send(x, z, 1000)
+dictrionary (name,id)
+def arrange(name,id):
+attendence=("karthik":12345,"jyothsna":21345,"sasank":12435)
+name=[]
+for value in attendence:
+   name.append(value)
+   name.sort()
+   for i in name
+   print(i,attendence (i))
+   
+            
