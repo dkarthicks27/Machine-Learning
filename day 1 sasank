@@ -6,8 +6,10 @@ def arrange():
         keys.append(key)
         values.append(value)
     values.sort()
-    for i in keys:
-        print(i, attendence[i])
+    for i in values:
+        for key, value in attendence.items():
+            if value == i:
+                print(key, i)
 
 
-arrange()         
+arrange()      
