@@ -3,6 +3,8 @@
     <words>
       <w>attendence</w>
       <w>dataset</w>
+      <w>filepath</w>
+      <w>minhash</w>
     </words>
   </dictionary>
 </component>
