@@ -22,7 +22,7 @@
 If any of these are missing use ""pip install dependencyName"" and install them before running the python file
 
 ### Reference:
-https://github.com/ekzhu/datasketch
-https://www.cs.princeton.edu/cass/papers/cikm08.pdf
+1. https://github.com/ekzhu/datasketch
+2. https://www.cs.princeton.edu/cass/papers/cikm08.pdf
 
 
