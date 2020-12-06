@@ -23,5 +23,6 @@ If any of these are missing use ""pip install dependencyName"" and install them 
 
 ### Reference:
 https://github.com/ekzhu/datasketch
+https://www.cs.princeton.edu/cass/papers/cikm08.pdf
 
 
