@@ -10,7 +10,19 @@
 1. Possibility of False negatives and False positives in the result due to the probabilistic approach
 2. For more probable issues please refer to the official Documentation of Datasketch
 
+### Dependencies Required:
+1. itertools
+2. datasketch
+3. time
+4. multiprocessing
+5. pandas
+6. tqdm
+7. glob
 
+If any of these are missing use ""pip install dependencyName"" and install them before running the python file
 
 ### Reference:
-https://github.com/ekzhu/datasketch
+1. https://github.com/ekzhu/datasketch
+2. https://www.cs.princeton.edu/cass/papers/cikm08.pdf
+
+
