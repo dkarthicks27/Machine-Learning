@@ -8,6 +8,8 @@ This repository has two python programs
 
 You can download the dataset at : https://www.cs.cmu.edu/~./enron/
 
+
+
 ## LSH 
 
 It is probabilistic approach which comes handy when scaling up. LSH is quicker and more efficient
@@ -15,6 +17,8 @@ algorithm based on Minhashing technique and Locality sensitive hashing
 
 indexing time is : O(n)
 classification is: O(t) , where t = number of test cases
+
+
 
 
 ## Tfidf + classifier (CONVENTIONAL)
