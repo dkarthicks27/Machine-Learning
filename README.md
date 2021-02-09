@@ -7,3 +7,7 @@
 
 The project was initially based on the enron email dataset
 https://www.cs.cmu.edu/~./enron/
+
+
+## 2. Classification
+       This project can be implemented directly, Please refer to the readme in the corresponding folder
