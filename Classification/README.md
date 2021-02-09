@@ -28,4 +28,4 @@ While conventional approach has scalability issues I have included 3 basic algor
 2. SVM
 3. Logistic Regression
 
-
+s
